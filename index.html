@@ -11,10 +11,188 @@
       crossorigin="anonymous"
     />
     <title>the surfing project</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
-    <nav class="nav bg-dark space-between text-light">
-      <div class="logo">The surfing Project</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">The Surfing Project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown05">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+      </div>
     </nav>
-  </body>
+    <div class="card text-white text-center">
+      <img
+        class="card-img"
+        src="./assets/rafael-leao-PW0-vZD0wis-unsplash.jpg"
+        alt="Card image"
+      />
+      <div class="card-img-overlay">
+        <h1 class="card-title">Partez à l'aventure</h1>
+        <p class="card-text">Decouvrez notre ecole de surf en peer-learning</p>
+        <div class="card-button d-flex justify-content-center">
+          <button type="button" class="btn btn-primary">
+            Je m'inscris a la prochaine session
+          </button>
+          <button
+            type="button"
+            class="btn bg-transparent border-none text-white bg-opacity-75"
+          >
+            Je découvre le programme
+          </button>
+        </div>
+      </div>
+    </div>
+    <section class="bg-white text-center">
+      <h1 class="text-center">The surfing project en 3 points</h1>
+      <div class="text-center">
+        <img src="" alt="" />
+        <h2>Pas chere</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+          doloribus autem mollitia, officiis a beatae rem harum architecto fugit
+          quasi quidem voluptas blanditiis incidunt totam adipisci accusamus
+        </p>
+      </div>
+      <div class="text-center">
+        <img src="" alt="" />
+        <h2>Relax</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+          doloribus autem mollitia, officiis a beatae rem harum architecto fugit
+          quasi quidem voluptas blanditiis incidunt totam adipisci accusamus
+        </p>
+      </div>
+      <div class="card-price text-center">
+        <img src="" alt="" />
+        <h2>La communauté</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+          doloribus autem mollitia, officiis a beatae rem harum architecto fugit
+          quasi quidem voluptas blanditiis incidunt totam adipisci accusamus
+        </p>
+      </div>
+    </section>
+    <section class="temoignages">
+      <h1 class="text-center">Temoignages</h1>
+      <div class="card border border-primary shadow-0 m-2" style="background-color:#ffffff;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="./assets/pexels-bradley-hook-111085.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+          </a>
+        </div>
+      
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+        </div>
+      </div>
+      <div class="card border border-primary shadow-0 m-2 " style="background-color:#ffffff;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="./assets/pexels-igor-starkov-769158.jpg" class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+          </a>
+        </div>
+      
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+        </div>
+      </div>
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">0€<small class="text-muted fw-light"></small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Le kiff</li>
+                    <li> A Bali</li>
+                    <li>Pendant 1 Semaine</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">S'inscrire</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Early Bird</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">15€<small class="text-muted fw-light"></small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Le Kiff</li>
+                    <li>A Bali</li>
+                    <li> Pendant 12 semaines</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">S'inscrire</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Early Bird</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">7€<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Le Kiff</li>
+                    <li>A Bali</li>
+                    <li> Pendant 12 semaines</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">S'inscrire</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+<footer>
+<p>
+  <i>&#169</i>Bootsrap, et the surfing project
+</p>
+</footer>
+</body>
 </html>
